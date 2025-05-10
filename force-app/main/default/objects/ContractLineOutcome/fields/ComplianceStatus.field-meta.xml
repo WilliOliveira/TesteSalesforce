@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ComplianceStatus</fullName>
+    <inlineHelpText>Selecione um status:
+
+        Em conformidade: o resultado está em conformidade com o contrato.
+
+        Não em conformidade: o resultado não está em conformidade com o contrato.
+
+        Indisponível: as informações de conformidade do resultado ainda não estão disponíveis.
+
+        Inválido: o resultado não é válido porque a opção selecionada para o Campo de critérios dos critérios de filtro do conjunto de registros foi excluída. Para reiniciar o cálculo, crie um novo resultado de linha de contrato.</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

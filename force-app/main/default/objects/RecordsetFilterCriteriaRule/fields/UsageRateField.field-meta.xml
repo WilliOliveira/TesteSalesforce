@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UsageRateField</fullName>
+    <inlineHelpText>Esse campo armazena a taxa de uso diária do ativo. A unidade para a taxa de uso deve ser por dia.</inlineHelpText>
+</CustomField>

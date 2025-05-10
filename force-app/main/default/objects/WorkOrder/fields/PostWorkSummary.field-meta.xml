@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PostWorkSummary</fullName>
+    <inlineHelpText>Insira um resumo manualmente. Se você estiver usando o Agentforce, seu agente de IA poderá preencher o resumo para você.</inlineHelpText>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+</CustomField>

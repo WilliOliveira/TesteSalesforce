@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EmptyBundleStatus</fullName>
+    <inlineHelpText>Selecione um status da categoria Cancelado para o qual um compromisso de serviço de pacote muda se não tiver membros restantes, mas ainda aparece na lista de compromissos.</inlineHelpText>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+</CustomField>

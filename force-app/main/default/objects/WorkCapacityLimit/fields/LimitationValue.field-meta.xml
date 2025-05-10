@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LimitationValue</fullName>
+    <inlineHelpText>Insira o número de horas ou o percentual como um número inteiro.</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

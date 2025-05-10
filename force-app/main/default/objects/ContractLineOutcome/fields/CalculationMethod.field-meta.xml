@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CalculationMethod</fullName>
+    <inlineHelpText>Selecione Média ou Conforme capturado para calcular o resultado da linha do contrato. 
+
+            Média calcula o valor do resultado final com base na média de todos os dados capturados até o momento. 
+
+            Conforme capturado considera a data atual do ativo no momento da verificação da conformidade.</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

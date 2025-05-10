@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentAsset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isVisibleByExternalUsers>true</isVisibleByExternalUsers>
+    <language>pt_BR</language>
+    <masterLabel>Logo_TGEXremovebgpreview_1</masterLabel>
+    <versions>
+        <version>
+            <number>1</number>
+            <pathOnClient>Logo_TGEX-removebg-preview (1).png</pathOnClient>
+        </version>
+    </versions>
+</ContentAsset>

@@ -1,0 +1,39 @@
+<template>
+    <lightning-card title="Buscar Endereço por CEP">
+        <div class="slds-p-around_medium">
+            <lightning-input 
+                label="CEP" 
+                value={cep} 
+                onchange={handleCepChange}
+                placeholder="Digite o CEP (ex: 01001000)">
+            </lightning-input>
+
+            <lightning-button 
+                label="Buscar Endereço" 
+                variant="brand" 
+                onclick={buscarEndereco} 
+                class="slds-m-top_medium">
+            </lightning-button>
+
+            <template if:true={endereco}>
+                <div class="slds-m-top_medium">
+                    <p><strong>Rua:</strong> {endereco.logradouro}</p>
+                    <p><strong>Bairro:</strong> {endereco.bairro}</p>
+                    <p><strong>Cidade:</strong> {endereco.localidade}</p>
+                    <p><strong>Estado:</strong> {endereco.uf}</p>
+                </div>
+
+                <lightning-button 
+                    label="Salvar na Conta" 
+                    variant="success" 
+                    onclick={salvarNaConta} 
+                    class="slds-m-top_medium">
+                </lightning-button>
+            </template>
+
+            <template if:true={erro}>
+                <div class="slds-text-color_error slds-m-top_medium">{erro}</div>
+            </template>
+        </div>
+    </lightning-card>
+</template>

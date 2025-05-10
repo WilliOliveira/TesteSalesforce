@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CapacityLimitRelaxation</fullName>
+    <inlineHelpText>Defina quando esse limite é substituído.
+            Se a política de cancelamento do limite for definida conforme o limite nas Configurações do Field Service:
+            Valor vazio - sem substituição.
+            0 - a substituição começa à meia-noite no dia do serviço.
+            Número inteiro positivo - a substituição começa esse número de horas após a meia-noite.
+            Número inteiro negativo - a substituição começa esse número de horas antes da meia-noite.
+            Se a política de cancelamento de limite não for definida conforme o limite, esse valor será ignorado.</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>
